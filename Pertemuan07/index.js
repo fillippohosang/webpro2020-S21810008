@@ -1,6 +1,6 @@
 //JavaScript Conditional 
-//1.)if,else if,else
 
+//1.)if,else if,else
 let nilaiDubu = 66;
 
 if (nilaiDubu > 91){
@@ -54,7 +54,9 @@ switch (hari) {
 
 console.log(JadwalKuliah); 
 
-//JS Loop
+
+
+//Javascripts Loop
 //1.For Loop
 for (let i = 1; i <= 5; i++) {
     console.log(i);
