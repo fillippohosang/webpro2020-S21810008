@@ -3,7 +3,6 @@ const operasiPenjumlahan = (bilangan1, bilangan2) => {
     const hasil =  bilangan1 * bilangan2;
     return hasil;
   };
-  
   console.log(operasiPenjumlahan(10, 20));
 
 // fungsi yang tidak memiliki parameter
@@ -15,8 +14,7 @@ const no_Student = () => {
   console.log(no_Student())
 
 //Exercise
-
-// let yearUntilRetirement = (year, firstName) {
+// let yearUntilRetirement = (year, firstName) => {
 //     var age = 28;
 //     var retirement = 65 - age;
 //     if (retirement > 0) {
@@ -26,9 +24,7 @@ const no_Student = () => {
 //     }
 // }
 
-
 //ES6 Syntax
-//excercise
 //excercise
 const yearsUntilRetirement = (year , firstName ="Dubu") => { // Arrow Function & Default
     const age =`${20}`;  //Template Literal
