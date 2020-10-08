@@ -52,7 +52,7 @@
 // const comb6 = [...num1,'-',...num2,"-",...num3]
 // console.log(comb6)
 
-//Tambah 
+//Tambah Properti Objek
 let orang = {
     nama : "Dubu",
     umur : 21
@@ -61,6 +61,7 @@ let orang = {
 orang = {...orang, position : "Rapper"}
 console.log(orang)
 
+//Gabung Objek
 const o1 = {a:1,b:2}
 const o2 = {c:3,d:4}
 
