@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Card from "./Components/Card";
+import {person} from './Components/Card';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Web Programming
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome, S21810008
-        </a>
-      </header>
-    </div>
+    <>
+      {person.map((item) =>{
+        return(
+          <Card
+            name={item.name}
+            institution={item.institution}
+            address={item.address}
+            phone={item.phone}
+          />
+        );
+      })}
+    </>
   );
 }
-
 export default App;
